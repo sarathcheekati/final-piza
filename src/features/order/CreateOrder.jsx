@@ -42,7 +42,7 @@ function CreateOrder() {
 
   // const [withPriority, setWithPriority] = useState(false);
   const cart = fakeCart;
-  const { username } = useSelector((state) => state.user);
+  const { username } = useSelector((state) => state.root.user);
 
   return (
     <div className="px-4 py-6">
